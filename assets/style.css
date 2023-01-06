@@ -1,4 +1,12 @@
 /*projection section:
 - when hovering over project image, it should be larger than the others
+- bar should stay on screen when scrolling
 */
+#profile-image{
+    width: 300px;
+}
+img{
+width:85px;
 
+
+}

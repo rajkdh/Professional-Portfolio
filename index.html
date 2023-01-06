@@ -10,18 +10,24 @@
 <body>
     <div class="topnav">
         <a class="active" href="#home">Home</a>
-        <a href="#bio">About Me</a> <!--add name name and link here-->
-        <a href="projects">Project</a> <!--add name name and link here-->
+        <a href="#about-me">About Me</a> <!--add name name and link here-->
+        <a href="#projects">Project</a> <!--add name name and link here-->
         <a href="https://github.com/rajkdh">GitHub</a> <!--add name name and link here-->
         <a href="#contact">Contact</a> <!--add name name and link here-->
     </div>
     <!-- add personal picture -->
-    <img src="./images/PP-profile-pic.png" alt="picture of Rajvir">
+<div class="intro">
+    <img id="profile-image" src="./images/PP-profile-pic.png" alt="picture of Rajvir" >
     <!--below bio-->
+    <div id="about-me">
     <h1>a little about me</h1>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem soluta, et quis sint libero eveniet nesciunt quam expedita mollitia laborum? Voluptatibus itaque recusandae eos aut quaerat vitae in consequatur perferendis?</p>
-
+    </div>
+</div>
     <!--add section for projects and link them to the deployed site-->
+    <section id="projects">
+    <h1>projects</h1>
+    
 <div class="card">
     <img src="./images/calculator.png" alt="Calculator">
     <div class="container">
@@ -50,6 +56,16 @@
         <p>HTML, CSS, JS, API</p>
     </div>
 </div>
+</section>
+<section id="contact">
+    <footer>
+        <div id="contact">
+            <a href="https://www.instagram.com/" target="_blank"> Instagram</a>
+            <a href="https://twitter.com/?lang=en" target="_blank">Twitter</a>
+            <a href= "mailto:" rajvir.dhanoa01@gmail.com>Email</a>
+       </div>
+    </footer>
+</section>
     <!-- add responzive layout for window resizing-->
 </body>
 </html>

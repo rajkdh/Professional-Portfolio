@@ -2,6 +2,21 @@
 - when hovering over project image, it should be larger than the others
 - bar should stay on screen when scrolling
 */
+.topnav{
+    background-color: #f4aeba;
+    overflow: hidden;
+    padding: 13px 15px;
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    gap: 10px;
+
+}
+.topnav a{
+color:white;
+
+
+}
 #profile-image{
     width: 300px;
 }

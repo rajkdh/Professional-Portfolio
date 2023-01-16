@@ -30,14 +30,9 @@ gap: 20px;
     width: 125px;
     float: left;
     padding: 20px;
-
-
-
 }
 img{
 width:85px;
-
-
 }
 
 .intro {
@@ -48,6 +43,9 @@ color: #7979ec;
 font-family: tangerine, cursive; 
 font-size: 50px;
 margin-bottom: -8px;
+}
+p{
+line-height: 25px;
 }
 #projects h1{
     color:#5656e2;
@@ -72,6 +70,7 @@ bottom: 0;
 right: 0;
 display: flex;
 gap: 10px;
+top:400px;
 }
 #contact a{
 text-decoration: none;

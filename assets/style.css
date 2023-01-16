@@ -2,9 +2,7 @@
 - when hovering over project image, it should be larger than the others
 - bar should stay on screen when scrolling
 */
-:root{
-    
-}
+
 * {
     background-color: 	#e5ecff;
 }
@@ -13,9 +11,9 @@
     overflow: hidden;
     padding: 12px 18px;
     display:flex;
-    flex-wrap: nowrap;
+    flex-wrap: ;
     justify-content: flex-end;
-    gap: 10px;
+    gap: 15px;
 
 }
 .topnav a{
@@ -24,6 +22,7 @@ background-color: #b3b3ff;
 font-size: 18px;
 text-decoration: none;
 font-weight: bold;
+gap: 20px;
 
 
 }
@@ -74,9 +73,7 @@ right: 0;
 display: flex;
 gap: 10px;
 
-
-    
-    
-
-
+}
+.card img:hover{
+transform: scale(2);
 }

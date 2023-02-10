@@ -7,6 +7,6 @@ My goal in completing this challange is to display what I have learned so far in
 No installation is required to run this site.
 
 ## Usage
-Follow link:
-![image](https://user-images.githubusercontent.com/112664790/217989881-aed91c35-3c4b-4140-b5c0-031cfbb2b2f7.png)
+Follow link: https://rajkdh.github.io/Professional-Portfolio/
+![image](https://user-images.githubusercontent.com/112664790/217991587-af507a12-3c30-444b-9b0b-bdac7b4b4dab.png)
 
